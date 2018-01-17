@@ -2,7 +2,7 @@ package NPC;
 
 import Actions.IAttackable;
 
-public class Troll extends Enemy implements IAttackable{
+public class Troll extends Enemy {
 
 
     public Troll(String name, int healthPoints) {

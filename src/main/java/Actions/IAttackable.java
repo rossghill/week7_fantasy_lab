@@ -1,6 +1,9 @@
 package Actions;
 
+
+import NPC.Enemy;
+
 public interface IAttackable {
 
-    int attack();
+    void attack(Enemy enemy);
 }

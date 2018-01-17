@@ -2,7 +2,7 @@ package NPC;
 
 import Actions.IAttackable;
 
-public abstract class Enemy implements IAttackable{
+public abstract class Enemy {
 
     private String name;
     private int healthPoints;
@@ -19,5 +19,9 @@ public abstract class Enemy implements IAttackable{
 
     public int getHealth() {
         return this.healthPoints;
+    }
+
+    public void setHealth(int healthPoints) {
+        this.healthPoints = healthPoints;
     }
 }

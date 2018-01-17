@@ -1,6 +1,14 @@
 package Player.Fighters;
 
-import Player.Player;
 
-public class Knight {
+public class Knight extends Fighters {
+
+
+    public Knight(String name, int healthPoints){
+        super(name, healthPoints);
+    }
+
+
 }
+
+

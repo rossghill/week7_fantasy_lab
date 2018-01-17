@@ -16,7 +16,7 @@ public class ClericTest {
     }
 
     @Test
-    public void hasElixir() {
+    public void hasHealingTool() {
         assertEquals(HealingTool.ELIXIR, cleric.getHealingTool());
     }
 
