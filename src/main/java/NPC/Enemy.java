@@ -15,4 +15,12 @@ public abstract class Enemy implements IAttackable{
     public String attack() {
         return null;
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getHealth() {
+        return this.healthPoints;
+    }
 }
