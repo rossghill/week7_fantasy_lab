@@ -18,12 +18,20 @@ public class EnemyTest {
     }
 
     @Test
-    public void orcHasName(){
+    public void enemyHasName(){
+        assertEquals("Gorbachev", troll.getName());
         assertEquals("Caeser", orc.getName());
     }
 
     @Test
-    public void orcHasHealthPoints(){
+    public void enemyHasHealthPoints(){
+        assertEquals(200, troll.getHealth());
         assertEquals(300, orc.getHealth());
+    }
+
+    @Test
+    public void enemyCanAttack() {
+        assertEquals(0, troll.attack());
+        assertEquals(0, orc.attack());
     }
 }

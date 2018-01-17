@@ -12,9 +12,6 @@ public abstract class Enemy implements IAttackable{
         this.healthPoints = healthPoints;
     }
 
-    public String attack() {
-        return null;
-    }
 
     public String getName() {
         return this.name;

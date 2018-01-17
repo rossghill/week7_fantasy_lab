@@ -8,7 +8,7 @@ public class Orc extends Enemy implements IAttackable {
             super (name, healthPoints);
         }
 
-//    public String attack() {
-//        return super.attack();
-//    }
+    public int attack() {
+        return 0;
+    }
 }
