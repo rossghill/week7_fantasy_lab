@@ -2,5 +2,5 @@ package Player.Clerics;
 
 import Player.Player;
 
-public class Cleric {
+public class Cleric extends Player{
 }
